@@ -1,7 +1,7 @@
 // Redirect ke index2.html setelah splash screen selesai
 document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
-        window.location.href = "index20.html";
+        window.location.href = "./public/index20.html";
     }, 10000); // 10 detik setelah loading selesai
 });
 
